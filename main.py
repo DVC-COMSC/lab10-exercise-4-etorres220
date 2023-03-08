@@ -2,9 +2,9 @@ def main():
     ##################################################
     # Comlete your code here
     ##################################################
-  Celsius = int(input('Enter Celsius:'))
-  results = (9/5) * Celsius +32
-  print ('Fahrenheit:', results)
+  celsius = int(input('Enter Celsius Degree:'))
+  fahrenheit = (9.0 /5.0) * celsius +32
+  print(f'The Fahrenheit is {fahrenheit:.2f}')
   
   
   pass
