@@ -2,7 +2,12 @@ def main():
     ##################################################
     # Comlete your code here
     ##################################################
-    pass
+  Celsius = int(input('Enter Celsius:'))
+  results = (9/5) * Celsius +32
+  print ('Fahrenheit:', results)
+  
+  
+  pass
 
 
 if __name__ == '__main__':
